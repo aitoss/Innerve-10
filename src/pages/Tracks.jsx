@@ -14,7 +14,7 @@ import RaysImg1 from "../assets/rays.svg";
 import RaysImg2 from "../assets/rays2.svg"; 
 import RaysImg3 from "../assets/rays3.svg"; 
 import Piggy from "../assets/piggy.svg";
-import PlantImg from "../assets/plant.png"
+import PlantImg from "../assets/Plant.png"
 
 const innerCardColors = [
   "#FA86B4", "#549EDE", "#903CD2", "#903CD2", "#FA86B4", 
