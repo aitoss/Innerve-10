@@ -19,55 +19,55 @@ const timelineData = [
   },
   {
     title: "Registration Ends",
-    date: "22 JAN 2026",
+    date: "10 JAN JAN 2026",
     description:
       "Last date to register for the hackathon!. Don't miss out on this opportunity—finalize your participation before it's too late!",
   },
   {
     title: "Pre-Innerve Games",
-    date: "26 JAN 2026",
+    date: "20 JAN 2026",
     description:
       "Embark on an exciting Pre-Innerve game designed exclusively for first-year students!",
   },
   {
     title: "Participant Check-in",
-    date: "7 FEB, 2026 6:00 PM",
+    date: "29 FEB, 2026 6:00 PM",
     description:
       "Engage in a warm welcome, thorough orientation, and the distribution of essential welcome kits as we kick off the hackathon experience.",
   },
   {
     title: "Hackathon Begins",
-    date: "8 FEB 2026 10:00 AM",
+    date: "30 JAN 2026 10:00 AM",
     description:
       "Get ready to code, innovate, and collaborate! The Hackathon journey begins—ideas soar, projects flourish, and success celebrated.",
   },
   {
     title: "Mentorship Session",
-    date: "9 FEB 2026 05:00 PM",
+    date: "31 JAN 2026 05:00 PM",
     description:
       "Get personalized guidance from experienced mentors in a dedicated session.",
   },
   {
     title: "Midnight Jam and Energizer",
-    date: "9 FEB 2026 12:00 AM",
+    date: "31 JAN 2026 12:00 AM",
     description:
       "Fuel your creativity with our Midnight Jam—a lively session featuring energizing activities and music.",
   },
   {
     title: "Coding hours end",
-    date: "9 FEB 2026 10:00 AM",
+    date: "31 JAN 2026 10:00 AM",
     description:
       "Wrap up your coding journey, take a breather, and gear up for the project submission phase.",
   },
   {
     title: "Judging Round",
-    date: "9 FEB 2026 12:00 PM",
+    date: "31 JAN 2026 12:00 PM",
     description:
       "Step into the spotlight as you present your projects in the judging round. Showcase your innovation.",
   },
   {
     title: "Final Presentation",
-    date: "9 FEB 2026 5:00 PM",
+    date: "31 JAN 2026 5:00 PM",
     description:
       "Bring your project to life, highlight key features, demonstrate functionality, and showcase the impact of your innovation on the real-world problem you tackled.",
   },
@@ -146,7 +146,7 @@ const Timeline = () => {
                     Result Declaration
                     </p>
                     <p className="font-tthoves text-[14px] text-gray-500">
-                    9 FEB 2026 7:00 PM
+                    31 JAN 2026 7:00 PM
                     </p>
                   </div>
                   <div className="font-tthoves text-left text-sm md:text-base pt-[1rem]">

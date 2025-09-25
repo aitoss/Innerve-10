@@ -49,7 +49,7 @@ const LoadingScreen = () => {
               spread={5}
               as="h1"
             >
-              Launching Innerve 9.0!
+              Launching Innerve 10!
               {/* Shimmering Text */}
             </TextShimmer>
             <div className="relative w-40 h-1 bg-neutral-800 rounded-full overflow-hidden">

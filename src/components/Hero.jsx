@@ -89,7 +89,7 @@ const Hero = () => {
           data-button-theme="light"
           style={{ height: "50px", width: "300px", marginBottom: "20px" }}
         ></div>
-        <FlipCountdown targetDate="2025-02-07T00:10:00" onEnd={handleEnd} />
+        <FlipCountdown targetDate="2026-01-29T00:10:00" onEnd={handleEnd} />
       </div>
       <Dates />
       <Stars />
