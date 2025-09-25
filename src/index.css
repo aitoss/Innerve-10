@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+@font-face {
+  font-family: 'AngryBirds';
+  src: url('../fonts/angrybirds-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pixellari';
+  src: url('../fonts/Pixellari.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* index.css or global.css */
+@font-face {
+  font-family: 'TTHoves';
+  src: url('/fonts/TT Hoves Pro Trial Regular.ttf') format('truetype');
+  font-weight: 400; /* Adjust the weight if needed */
+  font-style: normal;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+/* Apply font globally */
+body{
+  color: white;
+  background: linear-gradient( #1F0030, #0E0212);
+  font-family: 'TTHoves', sans-serif;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0);
+  }
+  12.5%{
+    transform: translate(25vw,5vh);
+  }
+  25%{
+    transform: translate(50vw,-10vh);
+  }
+  37.5%{
+    transform: translate(75vw,5vh);
+  }
+  50%{
+    transform: translate(calc(100vw - 240px),0vh);
+  }
+  62.5% {
+    transform: translate(75vw,5vh);
+  }
+  75%{
+    transform: translate(50vw,-10vh);
+  }
+  87.5%{
+    transform: translate(25vw,5vh);
+  }
+  100%{
+    transform: translate(0vw,0vh);
+  }
+}
+
+#floating-piggy {
+  transform: translate(0%, 0%);
+  animation: float 30s linear 10 ;
+  will-change: transform;
+}
+
+/* .upper-flap.flip {
+  animation: flip-animation 0.6s ease-in-out;
+}
+
+@keyframes flip-animation {
+  0% {
+    transform: rotateX(0);
+  }
+  50% {
+    transform: rotateX(-90deg);
+  }
+  100% {
+    transform: rotateX(0);
+  }
+} */
+
+
+
+/* styles/lottie.css */
+.ios-lottie {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+
+/* Optional: Add these styles if you experience flickering */
+.lottie-container {
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure smooth animations */
+@media screen and (max-width: 768px) {
+  .ios-lottie {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    transform: scale(0.7);
+    padding-right: 0.75rem;
+  }
+  
+  .venue {
+    transform: scale(0.7);
+  }
+}

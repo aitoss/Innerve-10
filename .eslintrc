@@ -1,0 +1,12 @@
+{
+    "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+    "settings": {
+        "react": {
+          "version": "detect"
+        }
+      },
+      "rules": {
+        "react/react-in-jsx-scope": "off"
+      }
+  }
+  

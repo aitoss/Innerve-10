@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "AngryBirds";
+  src: url("../assets/fonts/angrybirds-regular.ttf") format("truetype");
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 15rem; */
+  width:100%;
+  
+}
+.footer1-container {
+ width:100%;
+  
+}
+.logo{
+  scale:6;
+}
+
+
+
+.planets-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  border: 2px solid gold; /* Golden border */
+  box-shadow: 0 0 10px 5px gold; /* Golden glow effect */
+  border-radius: 8px; /* Optional: makes the corners rounded */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+  background-color: #0a161c;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  font-family: "AngryBirds";
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 0.8rem;
+  background: linear-gradient(270deg, #fbd176, #cf9518, #feb71e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: -1;
+}
+
+.sun {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+  border-radius: 50%;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+ 
+}
+
+.planet {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.planet1 {
+  top: 10%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  scale: 0.5;
+}
+
+.planet2 {
+  top: 45%;
+  left: 105%;
+  transform: translate(-50%, -50%);
+  scale: 0.85;
+}
+
+.planet3 {
+  top: 25%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  scale: 0.75;
+}
+
+.planet4 {
+  top: 45%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  scale: 0.85;
+}
+
+.planet5 {
+  top: 65%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.planet6 {
+  top: 25%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  scale: 0.75;
+}
+
+.planet7 {
+  top: 65%;
+  left: 98%;
+  transform: translate(-50%, -50%);
+}
+
+.planet8 {
+  top: 85%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.planet9 {
+  top: 85%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+.planet10 {
+  top: 10%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  scale: 0.5;
+}
+
+.female,
+.male {
+  width: 220px;
+  height: 60px;
+  border-radius: 14px;
+  border: 3px solid #6c6769;
+  background-color: rgba(144, 141, 142, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  font-family: "AngryBirds";
+  z-index: -1;
+}
+
+.f_char,
+.m_char {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 8px solid #4f4f50;
+  background-color: rgba(174, 169, 170, 0.9);
+  z-index: 1;
+  scale: 1.2;
+  padding:0.3rem;
+}
+
+.con,
+.con1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  padding: .5rem;
+}
+
+.contact {
+  padding: 1rem;
+  color: white;
+  font-family: "AngryBirds";
+}
+
+.gap {
+  height: 2rem;
+}
+
+.venue {
+  flex: 1; /* Allows it to take available space */
+  display: flex;
+  justify-content: flex-end; /* Aligns content to the right */
+  align-items: center;
+  
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.card iframe {
+  position: absolute;
+   top: 45px;
+  left: 43px; 
+  width: 70%;
+  height: 70%;
+  border: none;
+  border-radius: 12px;
+  z-index: 10;
+}
+
+/* Footer styling */
+.foot {
+  display: flex;
+  justify-content: space-between; /* Pushes the two items to opposite ends */
+  align-items: center;
+  padding: 1rem;
+  }
+
+/* Media Query for smaller screens */
+@media (max-width: 480px) {
+  .con {
+    flex-direction: column; /* Stacks elements in a column */
+    align-items: center; /* Centers them horizontally */
+    row-gap: 1rem; /* Adds space between elements */
+  }
+
+  .venue{
+    scale: 0.7;
+  }
+  .foot{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+row-gap: 1rem;
+  }
+  .footer-container{
+    scale: .7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 3rem;
+  }
+}
