@@ -9,28 +9,31 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'pixellari';
   src: url('../fonts/Pixellari.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
 /* index.css or global.css */
 @font-face {
   font-family: 'TTHoves';
   src: url('/fonts/TT Hoves Pro Trial Regular.ttf') format('truetype');
-  font-weight: 400; /* Adjust the weight if needed */
+  font-weight: 400;
+  /* Adjust the weight if needed */
   font-style: normal;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
 /* Apply font globally */
-body{
+body {
   color: white;
-  background: linear-gradient( #1F0030, #0E0212);
+  background: linear-gradient(#1F0030, #0E0212);
   font-family: 'TTHoves', sans-serif;
 }
 
@@ -38,35 +41,43 @@ body{
   0% {
     transform: translate(0, 0);
   }
-  12.5%{
-    transform: translate(25vw,5vh);
+
+  12.5% {
+    transform: translate(25vw, 5vh);
   }
-  25%{
-    transform: translate(50vw,-10vh);
+
+  25% {
+    transform: translate(50vw, -10vh);
   }
-  37.5%{
-    transform: translate(75vw,5vh);
+
+  37.5% {
+    transform: translate(75vw, 5vh);
   }
-  50%{
-    transform: translate(calc(100vw - 240px),0vh);
+
+  50% {
+    transform: translate(calc(100vw - 240px), 0vh);
   }
+
   62.5% {
-    transform: translate(75vw,5vh);
+    transform: translate(75vw, 5vh);
   }
-  75%{
-    transform: translate(50vw,-10vh);
+
+  75% {
+    transform: translate(50vw, -10vh);
   }
-  87.5%{
-    transform: translate(25vw,5vh);
+
+  87.5% {
+    transform: translate(25vw, 5vh);
   }
-  100%{
-    transform: translate(0vw,0vh);
+
+  100% {
+    transform: translate(0vw, 0vh);
   }
 }
 
 #floating-piggy {
   transform: translate(0%, 0%);
-  animation: float 30s linear 10 ;
+  animation: float 30s linear 10;
   will-change: transform;
 }
 
@@ -119,8 +130,28 @@ body{
     transform: scale(0.7);
     padding-right: 0.75rem;
   }
-  
+
   .venue {
     transform: scale(0.7);
   }
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0) ;
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+/* Pause animation on hover */
+.animate-scroll:hover {
+  animation-play-state: paused;
 }

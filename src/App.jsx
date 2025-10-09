@@ -75,9 +75,9 @@ function App() {
       <section id="tracks-section">
         <Tracks />
       </section>
-      <section id="ProblemStatement">
+      {/* <section id="ProblemStatement">
         <ProblemStatement />
-        </section>
+        </section> */}
       <section id="timeline-section">
         <Timeline />
       </section>
@@ -87,9 +87,9 @@ function App() {
       <section id="sponsors-section">
         <Sponsors />
       </section>
-      <section id="Faqs">
+      {/* <section id="Faqs">
         <FAQs />
-      </section>
+      </section> */}
       <section id="sponsor-us-section">
         <SponsorUs />
       </section>

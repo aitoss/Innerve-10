@@ -17,6 +17,7 @@ import Nord from "../assets/NordVPN_Logo_RGB_Primary_Black.png";
 import IIC from "../assets/logo/IIC";
 import Budhhani from "../assets/logo/Budhhani";
 import ACM from "../assets/logo/ACM";
+import ScrollingSponsors from "../components/ScrollingSponsors";
 const MemoizedSponsorTab = memo(SponsorTab);
 
 const Sponsors = () => {
@@ -100,7 +101,7 @@ const Sponsors = () => {
         </div>
 
         {/* Sponsors Tab */}
-        <div className="flex flex-wrap gap-4 justify-center items-center w-full px-8 md:px-16 lg:px-24 mx-auto">
+        {/* <div className="flex flex-wrap gap-4 justify-center items-center w-full px-8 md:px-16 lg:px-24 mx-auto">
           <MemoizedSponsorTab
             heading="Platinum Sponsor"
             images={platinumSponsorImages}
@@ -134,18 +135,19 @@ const Sponsors = () => {
               piggyNumber={1}
             />
           </div>
-        </div>
+        </div> */}
+        <ScrollingSponsors />
       </div>
 
       {/* Lower Leaves */}
-      <div className="w-[120vw] -mt-2 md:-mt-32 xl:-mt-48">
+      {/* <div className="w-[120vw] -mt-2 md:-mt-32 xl:-mt-48">
         <img
           src={LowerLeaves}
           alt="leaves"
           className="w-full object-cover"
           loading="lazy"
         />
-      </div>
+      </div> */}
     </section>
   );
 };
