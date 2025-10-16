@@ -54,16 +54,16 @@ const Hero = () => {
     alert("Innerve 9 is now LIVE!!");
   };
 
-  React.useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
+  // React.useEffect(() => {
+  //   const script = document.createElement('script');
+  //   script.src = 'https://apply.devfolio.co/v2/sdk.js';
+  //   script.async = true;
+  //   script.defer = true;
+  //   document.body.appendChild(script);
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   }
+  // }, []);
 
   // const handleRedirect=()=>{
   //   window.location.assign="https://Innerve.openinapp.link/Register"
@@ -84,11 +84,23 @@ const Hero = () => {
       <div className="w-full flex flex-col gap-24 justify-center items-center relative">
         <Heading />
         <div
-          className="apply-button"
-          data-hackathon-slug="innerve-nine"
-          data-button-theme="light"
-          style={{ height: "50px", width: "300px", marginBottom: "20px" }}
-        ></div>
+          className="relative group cursor-not-allowed"
+          style={{ marginBottom: "20px" }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-lg blur-md opacity-75 group-hover:opacity-100 transition duration-300"></div>
+          <div
+            className="relative px-8 py-4 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 rounded-lg text-white font-bold text-lg text-center shadow-lg transform transition duration-300 hover:scale-105"
+            style={{
+              minWidth: "300px",
+              textTransform: "uppercase",
+              letterSpacing: "2px",
+              border: "2px solid rgba(255, 255, 255, 0.3)",
+              backdropFilter: "blur(10px)"
+            }}
+          >
+            <span className="relative z-10"> Registration Begins Soon! </span>
+          </div>
+        </div>
         <FlipCountdown targetDate="2026-01-29T00:10:00" onEnd={handleEnd} />
       </div>
       <Dates />

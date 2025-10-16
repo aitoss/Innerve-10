@@ -64,6 +64,33 @@ const Sponsors = () => {
     </div>
   ]
 
+  const TotalSponsers = [
+    <Joshps />, <EthIndia />, <Devfolio />, <Polygon />,
+    <div className="flex justify-center items-center">
+      <Wolfram />
+    </div>,
+    <div className="flex justify-center items-center">
+      <img src={Nordpass} alt="Nordpass" className="w-60 h-15" />
+    </div>,
+    <div className="flex justify-center items-center">
+      <img src={Saily} alt="Saily" className="w-40 h-20" />
+    </div>,
+    <div className="flex justify-center items-center">
+      <img src={Incogni} alt="Incogni" className="w-36 h-auto" />
+    </div>,
+    <div className="flex justify-center items-center">
+      <img src={Nord} alt="NordVpn" className="w-80 h-15" />
+    </div>,
+    <div>
+      <IIC />
+    </div>,
+    <div>
+      <ACM />
+    </div>,
+    <Xyz />,
+    <Budhhani />
+  ]
+
   const platformSponsor = [<EthIndia />, <Devfolio />, <Polygon />];
 
   return (
@@ -101,42 +128,42 @@ const Sponsors = () => {
         </div>
 
         {/* Sponsors Tab */}
-        {/* <div className="flex flex-wrap gap-4 justify-center items-center w-full px-8 md:px-16 lg:px-24 mx-auto">
+        <div className="flex flex-wrap gap-4 justify-center items-center w-full px-8 md:px-16 lg:px-24 mx-auto">
           <MemoizedSponsorTab
-            heading="Platinum Sponsor"
-            images={platinumSponsorImages}
+            // heading="Platinum Sponsor"
+            images={TotalSponsers}
             piggyNumber={1}
           />
         </div>
-        <div className="flex justify-center flex-col items-center px-6 mt-24">
+        {/* <div className="flex justify-center flex-col items-center px-6 mt-24">
           <MemoizedSponsorTab
-            heading="Platform Sponsor"
+            // heading="Platform Sponsor"
             images={platformSponsor}
             piggyNumber={1}
           />
           <div className="flex flex-wrap gap-6 justify-center items-center w-full px-8 md:px-16 lg:px-24 mx-auto">
             <MemoizedSponsorTab
-              heading="Goodwill Sponsor"
+              // heading="Goodwill Sponsor"
               images={titleSponsorImages}
               piggyNumber={1}
             />
           </div>
           <div className="flex flex-wrap gap-6 justify-center items-center w-full px-8 md:px-16 lg:px-24 mx-auto">
             <MemoizedSponsorTab
-              heading="Credits Sponsor"
+              // heading="Credits Sponsor"
               images={creditImages}
               piggyNumber={1}
             />
           </div>
           <div className="flex flex-wrap gap-6 justify-center items-center w-full px-8 md:px-16 lg:px-24 mx-auto">
             <MemoizedSponsorTab
-              heading="Credits Sponsor"
+              // heading="Credits Sponsor"
               images={FoodSponsor}
               piggyNumber={1}
             />
           </div>
         </div> */}
-        <ScrollingSponsors />
+
       </div>
 
       {/* Lower Leaves */}

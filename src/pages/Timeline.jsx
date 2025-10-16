@@ -23,54 +23,54 @@ const timelineData = [
     description:
       "Last date to register for the hackathon!. Don't miss out on this opportunity—finalize your participation before it's too late!",
   },
+  // {
+  //   title: "Pre-Innerve Games",
+  //   date: "20 JAN 2026",
+  //   description:
+  //     "Embark on an exciting Pre-Innerve game designed exclusively for first-year students!",
+  // },
   {
-    title: "Pre-Innerve Games",
-    date: "20 JAN 2026",
-    description:
-      "Embark on an exciting Pre-Innerve game designed exclusively for first-year students!",
-  },
-  {
-    title: "Participant Check-in",
+    title: "Offline Peaching Round",
     date: "29 FEB, 2026 6:00 PM",
     description:
       "Engage in a warm welcome, thorough orientation, and the distribution of essential welcome kits as we kick off the hackathon experience.",
   },
   {
-    title: "Hackathon Begins",
+    title: "Innerve 10 Date",
     date: "30 JAN 2026 10:00 AM",
     description:
       "Get ready to code, innovate, and collaborate! The Hackathon journey begins—ideas soar, projects flourish, and success celebrated.",
   },
-  {
-    title: "Mentorship Session",
-    date: "31 JAN 2026 05:00 PM",
-    description:
-      "Get personalized guidance from experienced mentors in a dedicated session.",
-  },
-  {
-    title: "Midnight Jam and Energizer",
-    date: "31 JAN 2026 12:00 AM",
-    description:
-      "Fuel your creativity with our Midnight Jam—a lively session featuring energizing activities and music.",
-  },
-  {
-    title: "Coding hours end",
-    date: "31 JAN 2026 10:00 AM",
-    description:
-      "Wrap up your coding journey, take a breather, and gear up for the project submission phase.",
-  },
-  {
-    title: "Judging Round",
-    date: "31 JAN 2026 12:00 PM",
-    description:
-      "Step into the spotlight as you present your projects in the judging round. Showcase your innovation.",
-  },
-  {
-    title: "Final Presentation",
-    date: "31 JAN 2026 5:00 PM",
-    description:
-      "Bring your project to life, highlight key features, demonstrate functionality, and showcase the impact of your innovation on the real-world problem you tackled.",
-  },
+  // {
+  //   title: "Mentorship Session",
+  //   date: "31 JAN 2026 05:00 PM",
+  //   description:
+  //     "Get personalized guidance from experienced mentors in a dedicated session.",
+  // },
+  // {
+  //   title: "Midnight Jam and Energizer",
+  //   date: "31 JAN 2026 12:00 AM",
+  //   description:
+  //     "Fuel your creativity with our Midnight Jam—a lively session featuring energizing activities and music.",
+  // },
+  // {
+  //   title: "Coding hours end",
+  //   date: "31 JAN 2026 10:00 AM",
+  //   description:
+  //     "Wrap up your coding journey, take a breather, and gear up for the project submission phase.",
+  // },
+  // {
+  //   title: "Judging Round",
+  //   date: "31 JAN 2026 12:00 PM",
+  //   description:
+  //     "Step into the spotlight as you present your projects in the judging round. Showcase your innovation.",
+  // },
+  // {
+  //   title: "Final Presentation",
+  //   date: "31 JAN 2026 5:00 PM",
+  //   description:
+  //     "Bring your project to life, highlight key features, demonstrate functionality, and showcase the impact of your innovation on the real-world problem you tackled.",
+  // },
 ];
 
 const Timeline = () => {
