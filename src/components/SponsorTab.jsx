@@ -10,11 +10,11 @@ const SponsorTab = ({ heading, images, piggyNumber }) => {
       </h3>
 
       {/* Images in grid layout */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 justify-items-center items-center">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-12 justify-items-center items-center">
         {images.map((image, index) => (
           <div
             key={index}
-            className="relative md:w-[23rem] w-[14rem] h-[5.25rem] border-8 border-[#734F1F] transform -skew-x-12 flex items-center justify-center"
+            className="relative w-[10rem] md:w-[23rem] h-[5.25rem] border-8 border-[#734F1F] transform -skew-x-12 flex items-center justify-center"
           >
             <div className="flex items-center justify-center bg-white border-4 border-[#FFC102] transform -skew-x-10 h-full w-full">
               <div className="flex items-center justify-center w-[80%] h-[50%] transform skew-x-12">
