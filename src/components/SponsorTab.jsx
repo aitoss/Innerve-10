@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 
 const SponsorTab = ({ heading, images, piggyNumber }) => {
   return (
-    <div className="w-full flex flex-col items-center mb-[7.23rem]">
+    <div className="w-full flex flex-col justify-center items-center mb-[7.23rem]">
       {/* Heading */}
       <h3 className="text-[2rem] md:text-[2.5rem] font-angrybirds text-[#FFFF5C] mb-6 md:mb-8">
         {heading}
       </h3>
 
       {/* Images in grid layout */}
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-12 justify-items-center items-center">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 md:gap-8 lg:gap-12 justify centre justify-items-center items-center">
         {images.map((image, index) => (
           <div
             key={index}

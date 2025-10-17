@@ -13,13 +13,13 @@ import BubblePiggy from "../assets/bubble-piggy.svg";
 const timelineData = [
   {
     title: "Registration Starts",
-    date: "16 DEC 2025",
+    date: "15 NOV 2025",
     description:
       "Secure your spot starting December 16, 2025, at 12:00 AM IST. Join us for an exciting 24-hour hackathon by registering early!",
   },
   {
     title: "Registration Ends",
-    date: "10 JAN JAN 2026",
+    date: "31 DEC 2025",
     description:
       "Last date to register for the hackathon!. Don't miss out on this opportunity—finalize your participation before it's too late!",
   },
@@ -30,8 +30,8 @@ const timelineData = [
   //     "Embark on an exciting Pre-Innerve game designed exclusively for first-year students!",
   // },
   {
-    title: "Offline Peaching Round",
-    date: "29 FEB, 2026 6:00 PM",
+    title: "Offline Pitching Round",
+    date: "16 JAN, 2026 6:00 PM",
     description:
       "Engage in a warm welcome, thorough orientation, and the distribution of essential welcome kits as we kick off the hackathon experience.",
   },

@@ -87,9 +87,9 @@ const Hero = () => {
           className="relative group cursor-not-allowed"
           style={{ marginBottom: "20px" }}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-lg blur-md opacity-75 group-hover:opacity-100 transition duration-300"></div>
+         
           <div
-            className="relative px-8 py-4 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 rounded-lg text-white font-bold text-lg text-center shadow-lg transform transition duration-300 hover:scale-105"
+            className="relative px-8 py-4 bg-gradient-to-r font-angrybirds bg-[#2e0661] rounded-lg text-white font-bold text-lg text-center shadow-lg transform transition duration-300 hover:scale-105"
             style={{
               minWidth: "300px",
               textTransform: "uppercase",
