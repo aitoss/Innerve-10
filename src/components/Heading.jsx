@@ -10,7 +10,7 @@ const Heading = () => {
         <img
         src={Piggy}
         alt="piggy"
-        className="absolute w-5 md:w-10 top-5 md:top-12 left-[91%]"
+        className="absolute w-3 md:w-10 top-5 md:top-20 left-[91%] rotate-[-7deg]"
       />
       </div>
       <p className="font-angrybirds md:text-[32px]">

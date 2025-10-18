@@ -30,7 +30,7 @@ const Testimonials = () => {
       <img
         src={Piggy}
         alt="Piggy"
-        className="absolute w-[20px] h-[20px] sm:w-[15px] md:w-[20px] lg:w-[25px] top-[65%] left-[54%] transform -translate-x-1/2 -translate-y-1/2 rotate-[-6.39deg] xl:top-[65%] xl:left-[52%] xl:h-[30px] xl:w-[30px] lg:top-[65%] lg:left-[40%]"
+        className="absolute w-[20px] h-[20px] sm:w-[15px] md:w-[20px] lg:w-[25px] top-[64%] left-[53.5%] transform -translate-x-1/2 -translate-y-1/2 rotate-[-6.39deg] xl:top-[61%] xl:left-[53%] xl:h-[30px] xl:w-[30px] lg:top-[64%] lg:left-[53%]"
       />
         TESTIMONIALS
       </div>

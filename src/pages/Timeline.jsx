@@ -15,7 +15,7 @@ const timelineData = [
     title: "Registration Starts",
     date: "15 NOV 2025",
     description:
-      "Secure your spot starting December 16, 2025, at 12:00 AM IST. Join us for an exciting 24-hour hackathon by registering early!",
+      "Secure your spot starting November 15, 2025, at 12:00 AM IST. Join us for an exciting 24-hour hackathon by registering early!",
   },
   {
     title: "Registration Ends",
