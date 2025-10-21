@@ -17,6 +17,9 @@ import Nord from "../assets/NordVPN_Logo_RGB_Primary_Black.png";
 import IIC from "../assets/logo/IIC";
 import Budhhani from "../assets/logo/Budhhani";
 import ACM from "../assets/logo/ACM";
+import MicroGroupme from "../assets/microgrp.png";
+import Udchalo from "../assets/udchalo.png";
+import Icici from "../assets/icici.svg";
 import ScrollingSponsors from "../components/ScrollingSponsors";
 const MemoizedSponsorTab = memo(SponsorTab);
 
@@ -81,12 +84,22 @@ const Sponsors = () => {
     <div className="flex justify-center items-center">
       <img src={Nord} alt="NordVpn" className="w-80 h-15" />
     </div>,
-    <div>
-      <IIC />
+    <div className="flex justify-center items-center">
+      <img src={MicroGroupme} alt="MicroGroupme" className="w-80 h-15" />
     </div>,
-    <div>
-      <ACM />
+    <div className="flex justify-center items-center">
+      <img src={Udchalo} alt="Udchalo" className="w-80 h-15" />
     </div>,
+    <div className="flex justify-center items-center">
+      <img src={Icici} alt="Icici" className="w-80 h-15" />
+    </div>,
+
+    // <div>
+    //   <IIC />
+    // </div>,
+    // <div>
+    //   <ACM />
+    // </div>,
     <Xyz />,
     <Budhhani />
   ]
