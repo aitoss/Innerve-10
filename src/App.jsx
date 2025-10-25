@@ -87,9 +87,9 @@ function App() {
       <section id="sponsors-section">
         <Sponsors />
       </section>
-      {/* <section id="Faqs">
+      <section id="Faqs">
         <FAQs />
-      </section> */}
+      </section> 
       <section id="sponsor-us-section">
         <SponsorUs />
       </section>

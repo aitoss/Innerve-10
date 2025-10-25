@@ -18,22 +18,22 @@ import PlantImg from "../assets/Plant.png"
 
 const innerCardColors = [
   "#FA86B4", "#549EDE", "#903CD2", "#903CD2", "#FA86B4", 
-  "#549EDE", "#549EDE", "#903CD2", "#FA86B4", "#549EDE"
+  "#549EDE", "#903CD2", "#FA86B4", "#549EDE"
 ];
 
 const raysImages = [
   RaysImg1, RaysImg2, RaysImg3, RaysImg3, RaysImg1, 
-  RaysImg2, RaysImg2, RaysImg3, RaysImg1, RaysImg2
+  RaysImg2, RaysImg3, RaysImg1, RaysImg2
 ];
 
 const outerImages = [
   ARVRImg,edtech2Img, HeartImg, GamingImg, FinImg, 
-  CyberSecImg, DefImg, BlockchainImg, LogiImg, PlantImg
+  CyberSecImg, BlockchainImg, LogiImg, PlantImg
 ];
 
 const labels = [
   "AR/VR", "EduTech", "Healthcare", "GameDev", "FinTech", 
-  "CyberSec", "Defence", "Blockchain", "Logistics", "EcoTech"
+  "CyberSec", "Blockchain", "Logistics", "EcoTech"
 ];
 
 const Card = ({ innerColor, raysImage, outerImage }) => {

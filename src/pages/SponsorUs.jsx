@@ -79,22 +79,22 @@ const SponsorUs = () => {
           }}
         >
           {/* Content Inside Wooden */}
-          <div className="flex flex-col items-center justify-center gap-[1rem] md:px-[2rem] text-center">
+          <div className="flex flex-col items-center justify-center  md:px-[2rem] text-center">
             <div className="w-full">
               <div className="text-left">
-                <p className="text-white font-angrybirds sm:text-[3rem] text-[1.5rem] md:text-[2.75rem] ml-[1rem] xl:text-[3rem]">
+                <p className="text-white font-angrybirds sm:text-[3rem] text-[1.5rem] md:text-[2rem] ml-[1rem] xl:text-[2.5rem]">
                   WANT TO
                 </p>
               </div>
 
               <div>
-                <p className="text-white font-angrybirds sm:text-[4rem] text-[2rem] md:text-[5rem] xl:text-[8rem]">
+                <p className="text-white font-angrybirds sm:text-[4rem] text-[2rem] md:text-[5rem] xl:text-[7rem]">
                   SPONSOR US!
                 </p>
               </div>
             </div>
 
-            <div className="flex flex-col ">
+            <div className="flex flex-col   ">
               <a href="https://docs.google.com/forms/d/1ss1KVT5b5aGR8S7zuzEp34wlYNgyG1WyXq2RiEh-qdU/edit"
                 target="_blank"
                 rel="noopener noreferrer"

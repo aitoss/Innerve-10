@@ -19,8 +19,12 @@ import Budhhani from "../assets/logo/Budhhani";
 import ACM from "../assets/logo/ACM";
 import MicroGroupme from "../assets/microgrp.png";
 import Udchalo from "../assets/udchalo.png";
+import udchaloo from "../assets/udchalo.jpeg"
 import Icici from "../assets/icici.svg";
 import ScrollingSponsors from "../components/ScrollingSponsors";
+import Microsoft from "../assets/Microsoft.png"
+import Bob from "../assets/bob.png"
+import Maxprotein from "../assets/maxprotein-DxumR6gx.png"
 const MemoizedSponsorTab = memo(SponsorTab);
 
 const Sponsors = () => {
@@ -40,6 +44,7 @@ const Sponsors = () => {
     <div className="flex justify-center items-center">
       <img src={Nord} alt="NordVpn" className="w-80 h-15" />
     </div>,
+
     <div>
       <IIC />
     </div>,
@@ -68,31 +73,45 @@ const Sponsors = () => {
   ]
 
   const TotalSponsers = [
-    <Joshps />, <EthIndia />, <Devfolio />, <Polygon />,
+    <Joshps />,
+    <div className="flex justify-center items-center">
+      <img src={Microsoft} alt="MicroGroupme" className="w-56" />
+    </div>,
+    <div className="flex justify-center items-center">
+      <img src={Udchalo} alt="Udchalo" className="w-52" />
+    </div>,
+    <div className="flex justify-center items-center">
+      <img src={Icici} alt="Icici" className="w-80 h-15" />
+    </div>,
+    <div className="flex justify-center items-center">
+      <img src={Bob} alt="Bob" className="w-56 " />
+    </div>,
+    <div className="flex justify-center items-center">
+      <img src={Nord} alt="NordVpn" className="w-80 h-15" />
+    </div>,
+    <EthIndia />,
+    <Devfolio />,
+    // <Polygon />,
     <div className="flex justify-center items-center">
       <Wolfram />
     </div>,
-    <div className="flex justify-center items-center">
-      <img src={Nordpass} alt="Nordpass" className="w-60 h-15" />
-    </div>,
+    // <div className="flex justify-center items-center">
+    //   <img src={Nordpass} alt="Nordpass" className="w-60 h-15" />
+    // </div>,
     <div className="flex justify-center items-center">
       <img src={Saily} alt="Saily" className="w-40 h-20" />
     </div>,
     <div className="flex justify-center items-center">
       <img src={Incogni} alt="Incogni" className="w-36 h-auto" />
     </div>,
+
     <div className="flex justify-center items-center">
-      <img src={Nord} alt="NordVpn" className="w-80 h-15" />
+      <img src={Maxprotein} alt="Maxprotein" className="w-32" />
     </div>,
-    <div className="flex justify-center items-center">
-      <img src={MicroGroupme} alt="MicroGroupme" className="w-80 h-15" />
-    </div>,
-    <div className="flex justify-center items-center">
-      <img src={Udchalo} alt="Udchalo" className="w-80 h-15" />
-    </div>,
-    <div className="flex justify-center items-center">
-      <img src={Icici} alt="Icici" className="w-80 h-15" />
-    </div>,
+
+
+
+
 
     // <div>
     //   <IIC />
@@ -100,8 +119,8 @@ const Sponsors = () => {
     // <div>
     //   <ACM />
     // </div>,
-    <Xyz />,
-    <Budhhani />
+    // <Xyz />,
+    // <Budhhani />
   ]
 
   const platformSponsor = [<EthIndia />, <Devfolio />, <Polygon />];

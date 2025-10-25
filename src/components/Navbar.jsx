@@ -21,7 +21,7 @@ const Navbar = () => {
           <img src={Logo} alt="logo" />
         </a>
         <div className="flex gap-4 items-center">
-          <div className="flex items-center gap-2 cursor-pointer px-4 group "  onClick={handleBrochureClick}>
+          {/* <div className="flex items-center gap-2 cursor-pointer px-4 group "  onClick={handleBrochureClick}>
             <span className="h-[20px] w-1 bg-[#3AFFA3] z-1"></span>
             <span
               className="h-4 w-1 bg-[#3AFFA3] absolute z-1 -translate-x-1/2"
@@ -32,7 +32,7 @@ const Navbar = () => {
             ></span>
             <p>Brochure</p>
             <img src={Navigate} alt="brochure" className="group-hover:rotate-[45deg] transition duration-500"/>
-          </div>
+          </div> */}
           <button 
             className="flex items-center gap-[10px] border border-[rgba(255,255,255,0.5)] pl-6 pr-4 py-[10px] rounded group"
             onClick={toggleSidebar}
