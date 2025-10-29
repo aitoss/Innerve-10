@@ -23,6 +23,7 @@ export default {
     },
     fontFamily: {
       angrybirds: ["AngryBirds", "sans-serif"],
+      supercell: ["Supercell-Magic", "sans-serif"],
       tthoves: ["TTHoves", "sans-serif"],// Add the custom font
       },
   },

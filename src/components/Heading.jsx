@@ -5,7 +5,7 @@ import Piggy from "../assets/piggy.svg";
 const Heading = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-5">
-      <div className="relative font-angrybirds text-[80px] md:text-[172px] line leading-[100%]">
+      <div className="relative font-supercell text-[80px] md:text-[172px] line leading-[100%]">
         INNERVE 10
         <img
         src={Piggy}
