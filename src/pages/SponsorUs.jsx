@@ -27,7 +27,7 @@ const SponsorUs = () => {
 
   // Handle sponsor form click
   const handleSponsorUsClick = () => {
-    const sponsorFormUrl = "https://docs.google.com/forms/d/1ss1KVT5b5aGR8S7zuzEp34wlYNgyG1WyXq2RiEh-qdU/viewform";
+    const sponsorFormUrl = "https://forms.gle/w7W1inxhSTYuaB2y6";
 
     // Debugging output to ensure the click works
     console.log('Opening sponsor form...');
@@ -95,7 +95,7 @@ const SponsorUs = () => {
             </div>
 
             <div className="flex flex-col   ">
-              <a href="https://docs.google.com/forms/d/1ss1KVT5b5aGR8S7zuzEp34wlYNgyG1WyXq2RiEh-qdU/edit"
+              <a href="https://forms.gle/w7W1inxhSTYuaB2y6"
                 target="_blank"
                 rel="noopener noreferrer"
               ><ButtonSponsor Label="FILL THE FORM" onClick={handleSponsorUsClick} /></a>
