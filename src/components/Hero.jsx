@@ -23,6 +23,7 @@ import "../index.css";
 import video from "../assets/Nine.webm";
 import gsap from "gsap";
 import Devfolio from "../assets/DEVFOLIO_1.png"
+import DevfolioButton from "./ui/DevfolioButton";
 
 const Hero = () => {
   const videoRef = useRef(null);
@@ -72,7 +73,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative w-screen min-h-screen flex flex-col justify-center items-center gap-[120px]"
+      className="relative w-screen min-h-screen flex flex-col justify-center items-center gap-[100px]"
       style={{
         backgroundImage: ` url(${Grids})`,
         backgroundSize: "cover",
@@ -84,12 +85,14 @@ const Hero = () => {
       <div className="w-full flex flex-col gap-24 justify-center items-center relative">
         <Heading />
         <div
-          className="relative group cursor-not-allowed"
-          style={{ marginBottom: "20px" }}
+          className="relative group  cursor-not-allowed"
+          style={{ marginBottom: "5px" }}
         >
-         
+
+          <DevfolioButton />
+          
           <div
-            className="relative px-8 py-4 bg-gradient-to-r font-angrybirds bg-[#2e0661] rounded-lg text-white font-bold text-lg text-center shadow-lg transform transition duration-300 hover:scale-105"
+            className="relative mt-10 px-8 py-4 bg-gradient-to-r font-angrybirds bg-[#2e0661] rounded-lg text-white font-bold text-lg text-center shadow-lg transform transition duration-300 hover:scale-105"
             style={{
               minWidth: "300px",
               textTransform: "uppercase",
